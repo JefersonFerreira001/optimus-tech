@@ -1,0 +1,27 @@
+.metrica {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.metrica__div {
+    margin: 1rem;
+}
+
+.metrica__titulo-vermelho {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.metrica__titulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+    margin: 1rem 0;
+}
+
+.metrica__texto {
+    font-weight: 400;
+    color: var(--cinza);
+    line-height: 25px;
+}

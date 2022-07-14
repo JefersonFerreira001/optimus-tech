@@ -1,0 +1,50 @@
+.colaboradores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10rem;
+
+    background-color: var(--cinza-claro2);
+    padding: 3rem;
+    margin-bottom: 5rem;
+}
+
+.colaboradores__titulo-vermelho {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho);
+    margin-bottom: 2rem;
+}
+
+.colaboradores__titulo {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--preto);
+    margin-bottom: 2rem;
+}
+
+.colaboradores__pessoa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colaboradores__avatar {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 1rem;
+}
+
+.colaboradores__nome {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--preto);
+    margin-bottom: 1rem;
+}
+
+.colaboradores__trabalho {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza);
+}

@@ -1,0 +1,36 @@
+.design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.design__titulo {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--preto);
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 60vw;
+}
+
+.design__card {
+    border: 1px solid var(--cinza-borda);
+    border-radius: 15px;
+    width: 60vw;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.design__titulo-card {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+    margin-bottom: 3rem;
+}
+
+.design__texto {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza);
+    margin-right: 2rem;
+}
